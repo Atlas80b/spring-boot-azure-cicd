@@ -1,4 +1,4 @@
-name: Build and deploy JAR app to Azure Web App with private endpoint
+name: Build and deploy JAR app to private Azure Web App
 
 on:
   push:
