@@ -1,5 +1,5 @@
 # Azure Web App deployment pipeline with Github Actions
-This repository contains 2 simple implementations of a pipeline that creates automatic deployments of an Azure Web App.
+This repository contains 2 simple implementations of a pipeline that creates automatic deployments to an Azure Web App whenever code is pushed to a specifc branch (`dev` in this case).
 
 ## Private Web App 
 In case the Azure Web App is using a private endpoint and it is not publicly available, the deployment strategy consists of uploading the jar file to an Azure Storage Container.  
